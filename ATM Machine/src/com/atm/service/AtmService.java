@@ -62,7 +62,7 @@ public class AtmService {
         menu();
     }
 
-    //for withrow money
+    //for withdraw money
     public void withdrawMoney() {
         System.out.println("Enter Amount Withdraw:");
         Scanner sc = new Scanner(System.in);
@@ -176,7 +176,7 @@ public class AtmService {
             System.out.println();
         }
     }
-
+    // Process for TransferMoney
     public void processToMoney() {
 
         System.out.println("Enter the amount");
